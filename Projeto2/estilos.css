@@ -1,0 +1,75 @@
+
+
+/* Estilo geral da página */
+body {
+    background-color: #111111;
+    color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #C44536;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    color: #C44536;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Parágrafo em destaque */
+.destaque {
+    background-color: #242020;
+    color: #E5E5E5;
+    margin: 25px 0;
+    padding: 15px;
+}
+
+/* Blocos dos três tópicos */
+div {
+    background-color: #1C1C1C;
+    margin: 20px 0;
+    padding: 18px;
+    border: 1px solid #702820;
+}
+
+/* Títulos dos blocos */
+h3 {
+    color: #C44536;
+}
+
+/* Imagens dos tópicos */
+li img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Imagem principal */
+main > img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}
